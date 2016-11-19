@@ -1,0 +1,22 @@
+{
+  "name": "mobile-scaffold",
+  "version": "0.1.0",
+  "description": "Scaffold an empty Ionic application, ready to develop.",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": []
+}
